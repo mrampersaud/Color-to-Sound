@@ -1,0 +1,18 @@
+Please note: This project is for Mac installation only.
+
+This project uses the OCaml library CamlImages, as well as the OCaml 
+graphics library and OCamlSDL. In order to install these libraries, first
+run "opam install graphics" from the command line. This should also install
+CamlImages, but in the event that it doesn't, also run "opam install
+camlimages". Then, run "opam install ocamlsdl" and "opam install lablgl".
+You will need both of these libraries in order to use the OCamlSDL
+functionality used in this program. Finally, run "opam install conf-sdl-mixer".
+(If the installations prompt you to download additional needed packages, 
+install those from the command line using your corresponding package manager.)
+
+To run this program, first run "make build" from the terminal. Then, 
+run the command "make play", and if you choose to use the Image to Song Engine, 
+enter the name of the image file as prompted.
+
+Please note: Your image will need to be in the same directory you downloaded 
+the project into. It also must be in PNG format.
